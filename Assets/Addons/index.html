@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="jquery-3.4.1.js"></script>
+        <scirpt src="client.js"></scirpt>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="registerBack" >
+            <form method="GET" action="http://127.0.0.1:8080/example">
+                <p>Email: </p>
+                <input class="inputRegister" name="email" type="email"></input>
+                <p>Confirm Email: </p>
+                <input class="inputRegister" name="confirmEmail" type="email"></input>
+                <p>Username: </p>
+                <input class="inputRegister" name="username" type="text"></input>
+                <p>Password: </p>
+                <input class="inputRegister" name="password" type="password"></input>
+                <p>Name: </p>
+                <input class="inputRegister" name="name" id="name" type="text"></input>
+
+                <input id="refreshDB" class="inputRegister" type="submit" value="Register"></input>
+            </form>        
+        </div>
+
+
+    </body>
+</html>

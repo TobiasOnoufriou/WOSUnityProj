@@ -1,0 +1,924 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.XR.ARFoundation.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+/reference:Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Assets/Addons/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll
+/reference:Assets/Addons/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll
+/reference:Assets/Addons/Parse/Plugins/dotNet45/Unity.Compat.dll
+/reference:Assets/Addons/Parse/Plugins/dotNet45/Unity.Tasks.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_2_10
+/define:UNITY_2019_2
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:ENABLE_VIDEO
+/define:PLATFORM_ANDROID
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:ENABLE_EGL
+/define:ENABLE_NETWORK
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:PLATFORM_SUPPORTS_ADS_ID
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:ANDROID_USE_SWAPPY
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_UNITYADS_RUNTIME
+/define:UNITY_UNITYADS_API
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\SettingsUtils\SettingsData.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledBanner.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledCategory.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledInteractive.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledMessage.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledPopupArray.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledPopupLayers.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledRangeOptions.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledSpace.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledTexturePreview.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledMono\StyledMonoBehaviour.cs
+Assets\Addons\BOXOPHOBIC\Utils\Scripts\StyledMono\StyledMonoHideScriptField.cs
+Assets\Addons\Mapbox\Core\cheap-ruler-cs\CheapRuler.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\DirectionResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Directions.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Overview.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Annotation.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\DirectionsResponse.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Intersection.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Leg.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Maneuver.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Route.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Step.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Waypoint.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Directions\RoutingProfile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\ForwardGeocodeResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\Geocoder.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\GeocodeResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\Response\Feature.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\Response\GeocodeResponse.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\Response\Geometry.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Geocoding\ReverseGeocodeResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\CanonicalTileId.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\ClassicRasterTile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\ClassicRetinaRasterTile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\Map.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\MapUtils.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\RasterTile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\RawPngRasterTile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\RetinaRasterTile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\Tile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\TileCover.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\TileErrorEventArgs.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\TileResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\UnwrappedTileId.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Map\VectorTile.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\MapMatching\MapMatcher.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\MapMatching\MapMatchingParameters.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\MapMatching\MapMatchingResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\MapMatching\MapMatchingResponse.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\MapMatching\MatchObject.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\MapMatching\Tracepoint.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\CacheItem.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\CachingWebFileSource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\ICache.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\MemoryCache.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\SQLiteCache\SQLiteCache.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\SQLiteCache\Tiles.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Cache\SQLiteCache\Tilesets.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\FileSource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\HTTPRequestNonThreaded.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\HTTPRequestThreaded.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\IAsyncRequest.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\IAsyncRequestFactory.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\IFileSource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\IResource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Resource.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\Response.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\SQLite\SQLite.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\TileJSON\TileJSON.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\TileJSON\TileJSONObjectVectorLayer.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Platform\TileJSON\TileJSONReponse.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Tokens\MapboxToken.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Tokens\MapboxTokenApi.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\BearingFilter.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\CircularBuffer.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\Compression.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\Constants.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\GeoCoordinate.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\GeoCoordinateBounds.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\IObservable.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\IObserver.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\JsonConverters\BboxToGeoCoordinateBoundsConverter.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\JsonConverters\JsonConverters.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\JsonConverters\LonLatToGeoCoordinateConverter.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\JsonConverters\PolylineToGeoCoordinateListConverter.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\PolylineUtils.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\UnixTimestampUtils.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\Vector2d\Mathd.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\Vector2d\RectD.cs
+Assets\Addons\Mapbox\Core\mapbox-sdk-cs\Utils\Vector2d\Vector2d.cs
+Assets\Addons\Mapbox\Core\Plugins\Android\UniAndroidPermission\UniAndroidPermission.cs
+Assets\Addons\Mapbox\Core\probe-extractor-cs\Probe.cs
+Assets\Addons\Mapbox\Core\probe-extractor-cs\ProbeExtractor.cs
+Assets\Addons\Mapbox\Examples\1_DataExplorer\HighlightBuildings.cs
+Assets\Addons\Mapbox\Examples\1_DataExplorer\Scripts\TextMeshOutline.cs
+Assets\Addons\Mapbox\Examples\2_AstronautGame\AstronautGame\Astronaut\AstronautDirections.cs
+Assets\Addons\Mapbox\Examples\2_AstronautGame\AstronautGame\Astronaut\AstronautMouseController.cs
+Assets\Addons\Mapbox\Examples\2_AstronautGame\AstronautGame\Astronaut\CharacterMovement.cs
+Assets\Addons\Mapbox\Examples\3_POIPlacement\POIPlacementScriptExample.cs
+Assets\Addons\Mapbox\Examples\4_ReplaceFeatures\Scripts\BlinkLight.cs
+Assets\Addons\Mapbox\Examples\5_Playground\Scripts\DirectionsExample.cs
+Assets\Addons\Mapbox\Examples\5_Playground\Scripts\ForwardGeocoderExample.cs
+Assets\Addons\Mapbox\Examples\5_Playground\Scripts\LogLocationProviderData.cs
+Assets\Addons\Mapbox\Examples\5_Playground\Scripts\RasterTileExample.cs
+Assets\Addons\Mapbox\Examples\5_Playground\Scripts\ReverseGeocoderExample.cs
+Assets\Addons\Mapbox\Examples\5_Playground\Scripts\VectorTileExample.cs
+Assets\Addons\Mapbox\Examples\6_ZoomableMap\Scripts\SetCameraHeight.cs
+Assets\Addons\Mapbox\Examples\6_ZoomableMap\Scripts\SpawnOnMap.cs
+Assets\Addons\Mapbox\Examples\7_Globe\Scripts\DragRotate.cs
+Assets\Addons\Mapbox\Examples\7_Globe\Scripts\SpawnOnGlobeExample.cs
+Assets\Addons\Mapbox\Examples\8_VoxelMap\Scripts\TextureScaler.cs
+Assets\Addons\Mapbox\Examples\8_VoxelMap\Scripts\VoxelData.cs
+Assets\Addons\Mapbox\Examples\8_VoxelMap\Scripts\VoxelFetcher.cs
+Assets\Addons\Mapbox\Examples\8_VoxelMap\Scripts\VoxelTile.cs
+Assets\Addons\Mapbox\Examples\Scripts\CameraBillboard.cs
+Assets\Addons\Mapbox\Examples\Scripts\CameraMovement.cs
+Assets\Addons\Mapbox\Examples\Scripts\ChangeShadowDistance.cs
+Assets\Addons\Mapbox\Examples\Scripts\DragableDirectionWaypoint.cs
+Assets\Addons\Mapbox\Examples\Scripts\FeatureSelectionDetector.cs
+Assets\Addons\Mapbox\Examples\Scripts\FeatureUiMarker.cs
+Assets\Addons\Mapbox\Examples\Scripts\ForwardGeocodeUserInput.cs
+Assets\Addons\Mapbox\Examples\Scripts\HeroBuildingSelectionUserInput.cs
+Assets\Addons\Mapbox\Examples\Scripts\HighlightFeature.cs
+Assets\Addons\Mapbox\Examples\Scripts\ImmediatePositionWithLocationProvider.cs
+Assets\Addons\Mapbox\Examples\Scripts\LabelTextSetter.cs
+Assets\Addons\Mapbox\Examples\Scripts\LoadingPanelController.cs
+Assets\Addons\Mapbox\Examples\Scripts\LocationStatus.cs
+Assets\Addons\Mapbox\Examples\Scripts\MakiHelper.cs
+Assets\Addons\Mapbox\Examples\Scripts\ObjectInspectorModifier.cs
+Assets\Addons\Mapbox\Examples\Scripts\PoiLabelTextSetter.cs
+Assets\Addons\Mapbox\Examples\Scripts\PoiMarkerHelper.cs
+Assets\Addons\Mapbox\Examples\Scripts\PositionWithLocationProvider.cs
+Assets\Addons\Mapbox\Examples\Scripts\QuadTreeCameraMovement.cs
+Assets\Addons\Mapbox\Examples\Scripts\ReloadMap.cs
+Assets\Addons\Mapbox\Examples\Scripts\ReverseGeocodeUserInput.cs
+Assets\Addons\Mapbox\Examples\Scripts\RotateWithLocationProvider.cs
+Assets\Addons\Mapbox\Examples\Scripts\TrafficUvAnimator.cs
+Assets\Addons\Mapbox\Examples\Scripts\UpdateMapWithLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Constants.cs
+Assets\Addons\Mapbox\Unity\DataContainers\CameraBoundsTileProviderOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\ColliderOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\ElevationModificationOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\ElevationRequiredOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\ExtentOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\GeometryExtrusionOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\GeometryMaterialOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\ImageryRasterOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\LayerModifierOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\LayerPerformanceOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\LayerSourceOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\LineGeometryOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\LocationPrefabCategoryOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapboxDataProperty.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapboxEnums.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapExtentOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapLocationOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapPlacementOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\MapScalingOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\RangeAroundTransformTileProviderOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\RangeTileProviderOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\SpawnPrefabOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\TerrainColliderOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\TerrainSideWallOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\TileJsonData.cs
+Assets\Addons\Mapbox\Unity\DataContainers\TileStats.cs
+Assets\Addons\Mapbox\Unity\DataContainers\TileStatsFetcher.cs
+Assets\Addons\Mapbox\Unity\DataContainers\UnifiedMapOptions.cs
+Assets\Addons\Mapbox\Unity\DataContainers\UnityLayerOptions.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\CoreVectorLayerProperties.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\ElevationLayerProperties.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\ImageryLayerProperties.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\LayerProperties.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\PrefabItemOptions.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\PresetSubLayerPropertiesFetcher.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\VectorFilterOptions.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\VectorLayerProperties.cs
+Assets\Addons\Mapbox\Unity\LayerProperties\VectorSubLayerProperties.cs
+Assets\Addons\Mapbox\Unity\Location\AbstractEditorLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\AbstractLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\AngleSmoothing\AngleSmoothingAbstractBase.cs
+Assets\Addons\Mapbox\Unity\Location\AngleSmoothing\AngleSmoothingAverage.cs
+Assets\Addons\Mapbox\Unity\Location\AngleSmoothing\AngleSmoothingEMA.cs
+Assets\Addons\Mapbox\Unity\Location\AngleSmoothing\AngleSmoothingLowPass.cs
+Assets\Addons\Mapbox\Unity\Location\AngleSmoothing\AngleSmoothingNoOp.cs
+Assets\Addons\Mapbox\Unity\Location\AngleSmoothing\IAngleSmoothing.cs
+Assets\Addons\Mapbox\Unity\Location\DeviceLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\DeviceLocationProviderAndroidNative.cs
+Assets\Addons\Mapbox\Unity\Location\EditorLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\EditorLocationProviderLocationLog.cs
+Assets\Addons\Mapbox\Unity\Location\ILocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\Location.cs
+Assets\Addons\Mapbox\Unity\Location\LocationArrayEditorLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\LocationProviderFactory.cs
+Assets\Addons\Mapbox\Unity\Location\LocationSmoothing\KalmanFilter.cs
+Assets\Addons\Mapbox\Unity\Location\Logging\LocationLogAbstractBase.cs
+Assets\Addons\Mapbox\Unity\Location\Logging\LocationLogReader.cs
+Assets\Addons\Mapbox\Unity\Location\Logging\LocationLogWriter.cs
+Assets\Addons\Mapbox\Unity\Location\TransformLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Location\UnityLocationWrappers\IMapboxLocationInfo.cs
+Assets\Addons\Mapbox\Unity\Location\UnityLocationWrappers\IMapboxLocationService.cs
+Assets\Addons\Mapbox\Unity\Location\UnityLocationWrappers\MapboxLocationInfoMock.cs
+Assets\Addons\Mapbox\Unity\Location\UnityLocationWrappers\MapboxLocationInfoUnityWrapper.cs
+Assets\Addons\Mapbox\Unity\Location\UnityLocationWrappers\MapboxLocationServiceMock.cs
+Assets\Addons\Mapbox\Unity\Location\UnityLocationWrappers\MapboxLocationServiceUnityWrapper.cs
+Assets\Addons\Mapbox\Unity\Map\AbstractMap.cs
+Assets\Addons\Mapbox\Unity\Map\AbstractMapVisualizer.cs
+Assets\Addons\Mapbox\Unity\Map\InitializeMapWithLocationProvider.cs
+Assets\Addons\Mapbox\Unity\Map\Interfaces\IMap.cs
+Assets\Addons\Mapbox\Unity\Map\Interfaces\IMapPlacementStrategy.cs
+Assets\Addons\Mapbox\Unity\Map\Interfaces\IMapScalingStrategy.cs
+Assets\Addons\Mapbox\Unity\Map\Interfaces\ITileProvider.cs
+Assets\Addons\Mapbox\Unity\Map\Interfaces\IUnifiedMap.cs
+Assets\Addons\Mapbox\Unity\Map\MapVisualizer.cs
+Assets\Addons\Mapbox\Unity\Map\Strategies\MapPlacementAtLocationCenterStrategy.cs
+Assets\Addons\Mapbox\Unity\Map\Strategies\MapPlacementAtTileCenterStrategy.cs
+Assets\Addons\Mapbox\Unity\Map\Strategies\MapScalingAtUnityScaleStrategy.cs
+Assets\Addons\Mapbox\Unity\Map\Strategies\MapScalingAtWorldScaleStrategy.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\AbstractTileProvider.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\GlobeTileProvider.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\QuadTreeMapVisualizer.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\QuadTreeTileProvider.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\RangeAroundTransformTileProvider.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\RangeTileProvider.cs
+Assets\Addons\Mapbox\Unity\Map\TileProviders\TileErrorHandler.cs
+Assets\Addons\Mapbox\Unity\MapboxAccess.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Components\FeatureBehaviour.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Components\TextureSelector.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Components\VertexDebugger.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Components\VertexDebuggerGizmo.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\AtlasInfo.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\FeatureCollectionBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTree\DistanceFunctions.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTree\IntervalHeap.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTree\KDNode.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTree\KDTree.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTree\MinHeap.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTree\NearestNeighbour.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\KdTreeCollection.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\MeshData.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\UnityTile.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Data\VectorFeatureUnity.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Enums\TilePropertyState.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\AbstractTileFactory.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\DirectionsFactory.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\ImageDataFetcher.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\MapImageFactory.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainDataFetcher.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainFactoryBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\ElevatedTerrainStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\ElevatedTerrainWithSidesStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\ElevationBasedTerrainStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\FlatSphereTerrainStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\FlatTerrainStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\LowPolyTerrainStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TerrainStrategies\TerrainStrategy.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\TileProcessFinishedEventArgs.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\VectorDataFetcher.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Factories\VectorTileFactory.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Filters\FilterBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Filters\HeightFilter.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Filters\TypeFilter.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Interfaces\IFeaturePropertySettable.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Interfaces\LayerVisualizerBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\LayerVisualizers\LocationPrefabsLayerVisualizer.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\LayerVisualizers\VectorLayerVisualizer.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\AddMonoBehavioursModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\AddMonoBehavioursModifierType.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\AddToCollectionModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\ColliderModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\DisableMeshRendererModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\FeatureBehaviourModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\LayerModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\MapboxStylesColorModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\MaterialModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\NoiseOffsetModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\PrefabModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\SpawnInsideModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\TagModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\TextureModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\GameObjectModifiers\TextureMonoBehaviourModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\IReplaceable.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\IReplacementCriteria.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MergedModifierStack.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshGenerationBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\ChamferHeightModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\Earcut.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\HeightModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\LineMeshModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\LoftModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\PolygonMeshModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\ReplaceFeatureCollectionModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\ReplaceFeatureModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\SmoothLineModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\SnapTerrainModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\SnapTerrainRaycastModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\UvModifier.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\ModifierBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\ModifierStack.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\ModifierStackBase.cs
+Assets\Addons\Mapbox\Unity\MeshGeneration\Modifiers\TextureSideWallModifier.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\AbstractLayer.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\IImageryLayer.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ILayer.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ImageryLayer.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerBehaviorModifiers.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerColliderOptions.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerColorStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerCoreOptions.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerCustomStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerCustomStyleAtlas.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerCustomStyleAtlasWithColorPallete.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerCustomStyleOptions.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerCustomStyleTiled.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerDarkStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerExtrusionOptions.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerFantasyStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerLightStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerLineGeometryOptions.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerModeling.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerRealisticStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerSimpleStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ISubLayerTexturing.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\ITerrainLayer.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\MapboxDefaultElevation.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\MapboxDefaultImagery.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\MapboxDefaultStyles.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\MapboxDefaultVector.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerBehaviorModifiers.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerColorStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerCustomStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerCustomStyleAtlas.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerCustomStyleAtlasWithColorPallete.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerCustomStyleTiled.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerDarkStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerFantasyStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerLightStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerModeling.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerRealisticStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\SubLayerSimpleStyle.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\TerrainLayer.cs
+Assets\Addons\Mapbox\Unity\SourceLayers\VectorLayer.cs
+Assets\Addons\Mapbox\Unity\Styling\ScriptablePalette.cs
+Assets\Addons\Mapbox\Unity\Telemetry\ITelemetryLibrary.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryAndroid.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryDummy.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryEditor.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryFactory.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryFallback.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryIos.cs
+Assets\Addons\Mapbox\Unity\Telemetry\TelemetryWebgl.cs
+Assets\Addons\Mapbox\Unity\Utilities\AndroidSettings.cs
+Assets\Addons\Mapbox\Unity\Utilities\Console.cs
+Assets\Addons\Mapbox\Unity\Utilities\Conversions.cs
+Assets\Addons\Mapbox\Unity\Utilities\DebugTools\SceneData.cs
+Assets\Addons\Mapbox\Unity\Utilities\DebugTools\ScenesList.cs
+Assets\Addons\Mapbox\Unity\Utilities\DescriptionAttribute.cs
+Assets\Addons\Mapbox\Unity\Utilities\DontDestroyOnLoad.cs
+Assets\Addons\Mapbox\Unity\Utilities\GameObjectExtensions.cs
+Assets\Addons\Mapbox\Unity\Utilities\GeocodeAttribute.cs
+Assets\Addons\Mapbox\Unity\Utilities\HTTPRequest.cs
+Assets\Addons\Mapbox\Unity\Utilities\MapVisualizerPerformance.cs
+Assets\Addons\Mapbox\Unity\Utilities\NodeEditorElementAttribute.cs
+Assets\Addons\Mapbox\Unity\Utilities\ObjectPool.cs
+Assets\Addons\Mapbox\Unity\Utilities\OpenUrlOnButtonClick.cs
+Assets\Addons\Mapbox\Unity\Utilities\PolygonUtils.cs
+Assets\Addons\Mapbox\Unity\Utilities\Runnable.cs
+Assets\Addons\Mapbox\Unity\Utilities\Singleton.cs
+Assets\Addons\Mapbox\Unity\Utilities\SingletonScriptableObject.cs
+Assets\Addons\Mapbox\Unity\Utilities\StyleSearchAttribute.cs
+Assets\Addons\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs
+Assets\Addons\Mapbox\Unity\Utilities\VectorEntity.cs
+Assets\Addons\Mapbox\Unity\Utilities\VectorExtensions.cs
+Assets\Addons\MapboxAR\Examples\ARPrerequisiteInfo.cs
+Assets\Addons\MapboxAR\Examples\ARTabletop\Scripts\ARPlaneHandler.cs
+Assets\Addons\MapboxAR\Examples\ARTabletop\Scripts\ARTableTopCameraMovement.cs
+Assets\Addons\MapboxAR\Examples\ARTabletop\Scripts\PlaceMapOnARPlane.cs
+Assets\Addons\MapboxAR\Examples\ARTabletop\Scripts\SnapMapToTargetTransform.cs
+Assets\Addons\MapboxAR\Examples\ARTabletop\Scripts\UpdateShaderCoordinatesByARPlane.cs
+Assets\Addons\MapboxAR\Scripts\Camera\ManualTouchCamera.cs
+Assets\Addons\MapboxAR\Scripts\Camera\TouchCamera.cs
+Assets\Addons\MapboxAR\Scripts\ManualSync\FollowTargetTransform.cs
+Assets\Addons\MapboxAR\Scripts\ManualSync\RelocateMapByGPS.cs
+Assets\Addons\MapboxAR\Scripts\ManualSync\RotateOnYTargetTransform.cs
+Assets\Addons\MapboxAR\Scripts\ManualSync\UpdateMapPosByARPlaneY.cs
+Assets\Addons\MapboxAR\Scripts\PlayerSizeFromLocationAccuracy.cs
+Assets\Addons\MapboxAR\Unity\Ar\AbstractAlignmentStrategy.cs
+Assets\Addons\MapboxAR\Unity\Ar\AverageHeadingAlignmentStrategy.cs
+Assets\Addons\MapboxAR\Unity\Ar\ISynchronizationContext.cs
+Assets\Addons\MapboxAR\Unity\Ar\LerpAlignmentStrategy.cs
+Assets\Addons\MapboxAR\Unity\Ar\ManualSynchronizationContextBehaviour.cs
+Assets\Addons\MapboxAR\Unity\Ar\SimpleAutomaticSynchronizationContext.cs
+Assets\Addons\MapboxAR\Unity\Ar\SimpleAutomaticSynchronizationContextBehaviour.cs
+Assets\Addons\MapboxAR\Unity\Ar\SnapAlignmentStrategy.cs
+Assets\Addons\MapboxAR\Unity\Ar\Utilities\PlotRoute.cs
+Assets\Dungeon\DungeonScripts\BossScript.cs
+Assets\Dungeon\DungeonScripts\DodgeScript.cs
+Assets\Dungeon\DungeonScripts\DungeonInteraction.cs
+Assets\Dungeon\DungeonScripts\DungeonManager.cs
+Assets\GoogleARCore\Examples\ComputerVision\Scripts\ComputerVisionController.cs
+Assets\GoogleARCore\Examples\ComputerVision\Scripts\EdgeDetector.cs
+Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReader.cs
+Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReaderApi.cs
+Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreviewInput.cs
+Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreviewManager.cs
+Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreviewTrackedPoseDriver.cs
+Assets\GoogleARCore\SDK\Scripts\Anchor.cs
+Assets\GoogleARCore\SDK\Scripts\AndroidPermissionsManager.cs
+Assets\GoogleARCore\SDK\Scripts\AndroidPermissionsRequestResult.cs
+Assets\GoogleARCore\SDK\Scripts\Api\AnchorApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiApkInstallationStatus.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiApkInstallStatusExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiArStatus.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiAvailability.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiAvailabilityExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiCameraMetadata.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiConstants.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiDisplayUvCoords.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiLightEstimateState.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiLightEstimateStateExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiLightEstimationMode.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiPlaneFindingMode.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiPoseData.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiPrestoConfig.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiPrestoStatus.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiPrestoStatusExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiTrackableType.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiTrackableTypeExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiTrackedPointOrientationMode.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiTrackedPointOrientationModeExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiTrackingState.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiTrackingStateExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Api\ApiUpdateMode.cs
+Assets\GoogleARCore\SDK\Scripts\Api\CameraApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\CameraMetadataApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\FrameApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\HitTestApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\LightEstimateApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\NativeSession.cs
+Assets\GoogleARCore\SDK\Scripts\Api\PlaneApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\PointApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\PointCloudApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\PoseApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\SessionApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\SessionConfigApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\TrackableApi.cs
+Assets\GoogleARCore\SDK\Scripts\Api\TrackableListApi.cs
+Assets\GoogleARCore\SDK\Scripts\ApkAvailabilityStatus.cs
+Assets\GoogleARCore\SDK\Scripts\ApkInstallationStatus.cs
+Assets\GoogleARCore\SDK\Scripts\ARCoreBackgroundRenderer.cs
+Assets\GoogleARCore\SDK\Scripts\ARCoreSession.cs
+Assets\GoogleARCore\SDK\Scripts\ARCoreSessionConfig.cs
+Assets\GoogleARCore\SDK\Scripts\Async\WaitForTaskCompletionYieldInstruction.cs
+Assets\GoogleARCore\SDK\Scripts\AsyncTask.cs
+Assets\GoogleARCore\SDK\Scripts\CameraMetadataTag.cs
+Assets\GoogleARCore\SDK\Scripts\CameraMetadataValue.cs
+Assets\GoogleARCore\SDK\Scripts\EnvironmentalLight.cs
+Assets\GoogleARCore\SDK\Scripts\Frame.cs
+Assets\GoogleARCore\SDK\Scripts\LightEstimate.cs
+Assets\GoogleARCore\SDK\Scripts\LightEstimateState.cs
+Assets\GoogleARCore\SDK\Scripts\Managers\LifecycleManager.cs
+Assets\GoogleARCore\SDK\Scripts\Managers\TrackableManager.cs
+Assets\GoogleARCore\SDK\Scripts\PointCloudPoint.cs
+Assets\GoogleARCore\SDK\Scripts\Session.cs
+Assets\GoogleARCore\SDK\Scripts\SessionStatus.cs
+Assets\GoogleARCore\SDK\Scripts\SessionStatusExtensions.cs
+Assets\GoogleARCore\SDK\Scripts\Trackable.cs
+Assets\GoogleARCore\SDK\Scripts\TrackableHit.cs
+Assets\GoogleARCore\SDK\Scripts\TrackableHitFlags.cs
+Assets\GoogleARCore\SDK\Scripts\TrackableQueryFilter.cs
+Assets\GoogleARCore\SDK\Scripts\TrackedPlane.cs
+Assets\GoogleARCore\SDK\Scripts\TrackedPoint.cs
+Assets\GoogleARCore\SDK\Scripts\TrackedPointOrientationMode.cs
+Assets\GoogleARCore\SDK\Scripts\TrackingState.cs
+Assets\GoogleARCore\SDK\Scripts\Utility\ARCoreProjectSettings.cs
+Assets\GoogleARCore\SDK\Scripts\Utility\ARDebug.cs
+Assets\GoogleARCore\SDK\Scripts\Utility\ConversionHelper.cs
+Assets\GoogleARCore\SDK\Scripts\Utility\IntPtrEqualityComparer.cs
+Assets\GoogleARCore\SDK\Scripts\Utility\MarshalingHelper.cs
+"Assets\Map Scene\Scripts\bagScript.cs"
+"Assets\Map Scene\Scripts\dungeonClick.cs"
+"Assets\Map Scene\Scripts\DungeonInformation.cs"
+"Assets\Map Scene\Scripts\LongClickButton.cs"
+"Assets\Map Scene\Scripts\Networking.cs"
+"Assets\Map Scene\Scripts\RotateCamera.cs"
+"Assets\Old Stuff\Models\3DStuff\click.cs"
+"Assets\Old Stuff\ProceduralTest\Assets\Scripts\ModularWorldGenerator.cs"
+"Assets\Old Stuff\ProceduralTest\Assets\Scripts\Module.cs"
+"Assets\Old Stuff\ProceduralTest\Assets\Scripts\ModuleConnector.cs"
+"Assets\Old Stuff\Script\checkYes.cs"
+"Assets\Old Stuff\Script\Iattack.cs"
+"Assets\Old Stuff\Script\Item Script\Armour.cs"
+"Assets\Old Stuff\Script\Item Script\Consumable.cs"
+"Assets\Old Stuff\Script\Item Script\Item.cs"
+"Assets\Old Stuff\Script\Item Script\Weapon.cs"
+"Assets\Old Stuff\Script\Joystick.cs"
+"Assets\Old Stuff\Script\onMouseEvent.cs"
+"Assets\Old Stuff\Script\virtualJoystick.cs"
+"Assets\Old Stuff\Scripts\collectCoin.cs"
+"Assets\Old Stuff\Scripts\dungeonGenerator.cs"
+"Assets\Old Stuff\Scripts\gridScript.cs"
+"Assets\Old Stuff\Scripts\lookatCamera.cs"
+"Assets\Old Stuff\Scripts\proceduralPoint.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs"
+Assets\UnityARInterface\ARRemote\Scripts\ARRemoteDevice.cs
+Assets\UnityARInterface\ARRemote\Scripts\ARRemoteEditor.cs
+Assets\UnityARInterface\ARRemote\Scripts\ARRemoteEditorInterface.cs
+Assets\UnityARInterface\ARRemote\Scripts\ARSerializableObjects.cs
+Assets\UnityARInterface\Examples\ARFocusSquare\ARFocusSquare.cs
+Assets\UnityARInterface\Examples\Scripts\DemoGUI.cs
+Assets\UnityARInterface\Examples\Scripts\MatchingScalePicker.cs
+Assets\UnityARInterface\Examples\Scripts\ObjectShooter.cs
+Assets\UnityARInterface\Examples\Scripts\OptionsGUI.cs
+Assets\UnityARInterface\Examples\Scripts\PlaceOnPlane.cs
+Assets\UnityARInterface\Examples\Scripts\RemoveRigidbody.cs
+Assets\UnityARInterface\Scripts\ARAnchor.cs
+Assets\UnityARInterface\Scripts\ARBase.cs
+Assets\UnityARInterface\Scripts\ARController.cs
+Assets\UnityARInterface\Scripts\ARCoreInterface.cs
+Assets\UnityARInterface\Scripts\AREditorInterface.cs
+Assets\UnityARInterface\Scripts\ARInterface.cs
+Assets\UnityARInterface\Scripts\ARKitInterface.cs
+Assets\UnityARInterface\Scripts\ARLightEstimate.cs
+Assets\UnityARInterface\Scripts\ARMessageIds.cs
+Assets\UnityARInterface\Scripts\ARPlaneVisualizer.cs
+Assets\UnityARInterface\Scripts\ARPointCloudVisualizer.cs
+Assets\UnityARInterface\Scripts\BoundedPlane.cs
+Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs
+Assets\UnityARKitPlugin\ARKitRemote\ConnectionMessageIds.cs
+Assets\UnityARKitPlugin\ARKitRemote\ConnectToEditor.cs
+Assets\UnityARKitPlugin\ARKitRemote\EditorHitTest.cs
+Assets\UnityARKitPlugin\ARKitRemote\ObjectSerializationExtension.cs
+Assets\UnityARKitPlugin\ARKitRemote\SerializableObjects.cs
+Assets\UnityARKitPlugin\ARKitRemote\UnityRemoteVideo.cs
+Assets\UnityARKitPlugin\Examples\AddRemoveAnchorExample\UnityARUserAnchorExample.cs
+Assets\UnityARKitPlugin\Examples\FocusSquare\FocusSquare.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\AR3DOFCameraManager.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\ARPlaneAnchorGameObject.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\DontDestroyOnLoad.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\PointCloudParticleExample.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARAmbient.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARAnchorManager.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARCameraManager.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARCameraNearFar.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARGeneratePlane.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARHitTestExample.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARKitControl.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARKitLightManager.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARMatrixOps.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARUserAnchorComponent.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARUtility.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityARVideo.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Helpers\UnityPointCloudExample.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARAnchor.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARCamera.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARErrorCode.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARFaceAnchor.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARFrame.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARHitTestResult.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARHitTestResultType.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARLightEstimate.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARPlaneAnchor.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARPlaneAnchorAlignment.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARPoint.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARRect.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARSize.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARTextureHandles.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARTrackingQuality.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARTrackingState.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARTrackingStateReason.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARUserAnchor.cs
+Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs
+Assets\UnityARKitPlugin\UnityARKitPluginSettings.cs

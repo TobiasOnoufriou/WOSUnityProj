@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "128284008408",
+    "firebase_url": "https://arproject-35478.firebaseio.com",
+    "project_id": "arproject-35478",
+    "storage_bucket": "arproject-35478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128284008408:android:f65389341cfaef54",
+        "android_client_info": {
+          "package_name": "com.ARG.ARRPG"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128284008408-moskntvkstkconp57ohtra7bpme4qntu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpOaNElh1zVN4njhxnRq-8G1mBwwAqGM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128284008408-moskntvkstkconp57ohtra7bpme4qntu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

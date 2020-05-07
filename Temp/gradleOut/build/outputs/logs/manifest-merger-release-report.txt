@@ -1,0 +1,338 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [:animated-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\685be116b8acd0ff6cec0bd4ffceb2fd\AndroidManifest.xml:17:1-24:12
+MERGED from [:appcompat-v7-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\e8971c93a9fc2c4c00b2d97aa9fe25e2\AndroidManifest.xml:17:1-27:12
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:17:1-44:12
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:2:1-18:12
+MERGED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:2:1-10:12
+MERGED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:2:1-14:12
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:2:1-30:12
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:2:1-21:12
+MERGED from [:support-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\2b013714160a978f1f7fdd89fdd29d84\AndroidManifest.xml:17:1-27:12
+MERGED from [:support-core-ui-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\c4ffe8d3f2b291a223c5b17587ad3176\AndroidManifest.xml:17:1-27:12
+MERGED from [:support-core-utils-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\41f77bccd75b06c506269f297ef4e0a4\AndroidManifest.xml:17:1-27:12
+MERGED from [:support-media-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\9cfcb0b145035c20aa89060cfd20f903\AndroidManifest.xml:17:1-27:12
+MERGED from [:support-v4-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\611deaeb7f53c5b48ba754fcd58b8419\AndroidManifest.xml:17:1-27:12
+MERGED from [:support-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\fec0954b05628c958562cff91b4308b3\AndroidManifest.xml:17:1-25:12
+MERGED from [:unityandroidpermissions:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6a8367ddf2e14c56a3d6b68aa377f7a5\AndroidManifest.xml:6:1-15:12
+MERGED from [:unitygar:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\0f1e97d82e56ed23d8e447b0ddaac0d0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:70-102
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:103-149
+	android:versionCode
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:150-190
+supports-screens
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:4:3-17:17
+MERGED from [:animated-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\685be116b8acd0ff6cec0bd4ffceb2fd\AndroidManifest.xml:22:5-20
+MERGED from [:animated-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\685be116b8acd0ff6cec0bd4ffceb2fd\AndroidManifest.xml:22:5-20
+MERGED from [:appcompat-v7-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\e8971c93a9fc2c4c00b2d97aa9fe25e2\AndroidManifest.xml:25:5-20
+MERGED from [:appcompat-v7-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\e8971c93a9fc2c4c00b2d97aa9fe25e2\AndroidManifest.xml:25:5-20
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:28:5-42:19
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:28:5-42:19
+MERGED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:6:5-8:19
+MERGED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:6:5-8:19
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:18:5-28:19
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:18:5-28:19
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:12:5-14:19
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:12:5-14:19
+MERGED from [:support-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\2b013714160a978f1f7fdd89fdd29d84\AndroidManifest.xml:25:5-20
+MERGED from [:support-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\2b013714160a978f1f7fdd89fdd29d84\AndroidManifest.xml:25:5-20
+MERGED from [:support-core-ui-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\c4ffe8d3f2b291a223c5b17587ad3176\AndroidManifest.xml:25:5-20
+MERGED from [:support-core-ui-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\c4ffe8d3f2b291a223c5b17587ad3176\AndroidManifest.xml:25:5-20
+MERGED from [:support-core-utils-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\41f77bccd75b06c506269f297ef4e0a4\AndroidManifest.xml:25:5-20
+MERGED from [:support-core-utils-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\41f77bccd75b06c506269f297ef4e0a4\AndroidManifest.xml:25:5-20
+MERGED from [:support-media-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\9cfcb0b145035c20aa89060cfd20f903\AndroidManifest.xml:25:5-20
+MERGED from [:support-media-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\9cfcb0b145035c20aa89060cfd20f903\AndroidManifest.xml:25:5-20
+MERGED from [:support-v4-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\611deaeb7f53c5b48ba754fcd58b8419\AndroidManifest.xml:25:5-20
+MERGED from [:support-v4-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\611deaeb7f53c5b48ba754fcd58b8419\AndroidManifest.xml:25:5-20
+MERGED from [:support-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\fec0954b05628c958562cff91b4308b3\AndroidManifest.xml:23:5-20
+MERGED from [:support-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\fec0954b05628c958562cff91b4308b3\AndroidManifest.xml:23:5-20
+	android:label
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:4:90-122
+	android:icon
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:4:58-89
+	android:theme
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:4:16-57
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:102-140
+	android:label
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:69-101
+	android:launchMode
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:141-172
+	android:hardwareAccelerated
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:355-390
+	android:configChanges
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:173-354
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:5:15-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:6:7-9:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:8:19-66
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:10:7-82
+	android:value
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:10:59-79
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:10:18-58
+meta-data#android.notch_support
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:11:7-78
+	android:value
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:11:55-75
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:11:18-54
+meta-data#unity.build-id
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:13:5-101
+	android:value
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:13:46-98
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:13:16-45
+meta-data#unity.splash-mode
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:14:5-69
+	android:value
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:14:49-66
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:14:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:15:5-74
+	android:value
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:15:51-71
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:15:16-50
+meta-data#notch.config
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:16:5-81
+	android:value
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:16:44-78
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:16:16-43
+uses-feature#0x00030000
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:18:3-52
+	android:glEsVersion
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:18:17-49
+uses-feature#android.hardware.vulkan
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-83
+	android:required
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:19:56-80
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:19:17-55
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:20:3-65
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:16:5-67
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:16:5-67
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:16:5-67
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:20:20-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:21:3-77
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:11:5-79
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:11:5-79
+MERGED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:11:5-79
+MERGED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:11:5-79
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:13:5-79
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:13:5-79
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:17:5-79
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:21:20-74
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:22:3-89
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:14:5-16:35
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:14:5-16:35
+	android:required
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:22:62-86
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:22:17-61
+uses-feature#android.hardware.location
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:23:3-85
+	android:required
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:23:58-82
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:23:17-57
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:24:3-88
+	android:required
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:24:61-85
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:24:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:25:3-99
+	android:required
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:25:72-96
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:25:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:26:3-108
+	android:required
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:26:81-105
+	android:name
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:26:17-80
+uses-sdk
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+MERGED from [:animated-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\685be116b8acd0ff6cec0bd4ffceb2fd\AndroidManifest.xml:20:5-44
+MERGED from [:animated-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\685be116b8acd0ff6cec0bd4ffceb2fd\AndroidManifest.xml:20:5-44
+MERGED from [:appcompat-v7-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\e8971c93a9fc2c4c00b2d97aa9fe25e2\AndroidManifest.xml:21:5-23:78
+MERGED from [:appcompat-v7-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\e8971c93a9fc2c4c00b2d97aa9fe25e2\AndroidManifest.xml:21:5-23:78
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:25:5-44
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:25:5-44
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:26:5-47
+MERGED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:26:5-47
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:7:5-9:41
+MERGED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:7:5-9:41
+MERGED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:7:5-9:41
+MERGED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:7:5-9:41
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:7:5-9:41
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:7:5-9:41
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:8:5-10:41
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:8:5-10:41
+MERGED from [:support-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\2b013714160a978f1f7fdd89fdd29d84\AndroidManifest.xml:21:5-23:58
+MERGED from [:support-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\2b013714160a978f1f7fdd89fdd29d84\AndroidManifest.xml:21:5-23:58
+MERGED from [:support-core-ui-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\c4ffe8d3f2b291a223c5b17587ad3176\AndroidManifest.xml:21:5-23:58
+MERGED from [:support-core-ui-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\c4ffe8d3f2b291a223c5b17587ad3176\AndroidManifest.xml:21:5-23:58
+MERGED from [:support-core-utils-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\41f77bccd75b06c506269f297ef4e0a4\AndroidManifest.xml:21:5-23:61
+MERGED from [:support-core-utils-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\41f77bccd75b06c506269f297ef4e0a4\AndroidManifest.xml:21:5-23:61
+MERGED from [:support-media-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\9cfcb0b145035c20aa89060cfd20f903\AndroidManifest.xml:21:5-23:63
+MERGED from [:support-media-compat-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\9cfcb0b145035c20aa89060cfd20f903\AndroidManifest.xml:21:5-23:63
+MERGED from [:support-v4-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\611deaeb7f53c5b48ba754fcd58b8419\AndroidManifest.xml:21:5-23:54
+MERGED from [:support-v4-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\611deaeb7f53c5b48ba754fcd58b8419\AndroidManifest.xml:21:5-23:54
+MERGED from [:support-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\fec0954b05628c958562cff91b4308b3\AndroidManifest.xml:21:5-43
+MERGED from [:support-vector-drawable-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\fec0954b05628c958562cff91b4308b3\AndroidManifest.xml:21:5-43
+MERGED from [:unityandroidpermissions:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6a8367ddf2e14c56a3d6b68aa377f7a5\AndroidManifest.xml:11:5-13:41
+MERGED from [:unityandroidpermissions:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6a8367ddf2e14c56a3d6b68aa377f7a5\AndroidManifest.xml:11:5-13:41
+MERGED from [:unitygar:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\0f1e97d82e56ed23d8e447b0ddaac0d0\AndroidManifest.xml:7:5-9:41
+MERGED from [:unitygar:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\0f1e97d82e56ed23d8e447b0ddaac0d0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:appcompat-v7-25.1.0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\e8971c93a9fc2c4c00b2d97aa9fe25e2\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		MERGED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml
+activity#com.google.ar.core.InstallActivity
+ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:31:9-37:80
+	android:excludeFromRecents
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:34:13-46
+	android:launchMode
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:36:13-43
+	android:exported
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:37:13-77
+	android:name
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:32:13-62
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:39:9-41:41
+	android:value
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:41:13-38
+	android:name
+		ADDED from [:arcore_client:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\7421338ab58b8270694129df56b3bc53\AndroidManifest.xml:40:13-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:12:5-81
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:18:5-80
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from [:com.mapbox.android.unity-debug:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\68acaf5d36fbacb31ef570da8b4c25bf\AndroidManifest.xml:12:22-78
+meta-data#com.google.ar.core
+ADDED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:7:9-81
+	android:value
+		ADDED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:7:54-78
+	android:name
+		ADDED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:7:20-53
+uses-feature#android.hardware.camera.ar
+ADDED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:9:5-86
+	android:required
+		ADDED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:9:61-84
+	android:name
+		ADDED from [:google_ar_required:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\8aefa045699367a0b839107b0981288e\AndroidManifest.xml:9:19-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12 reason: com.google.ar.core.unity.manifestsettings has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12 reason: com.google.ar.core.unity.manifestsettings has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\space\Desktop\New Unity Project\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-27:12 reason: com.google.ar.core.unity.manifestsettings requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:12:5-79
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:14:5-79
+MERGED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:14:5-79
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:19:5-78
+MERGED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [:libcore-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\bd824693b70b8c881b878bdebba39f96\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:15:22-73
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:19:9-23:39
+	android:authorities
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:21:13-79
+	android:exported
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:20:13-93
+service#com.mapbox.android.telemetry.crash.CrashReporterJobIntentService
+ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:25:9-27:72
+	android:permission
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [:libtelemetry-full-release:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\4c94325c6a93bd2cad69b600230027a6\AndroidManifest.xml:26:13-92
+service#com.mapbox.services.android.telemetry.service.TelemetryService
+ADDED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:13:9-97
+	android:name
+		ADDED from [:mapbox-android-telemetry-2-1-0:] C:\Users\space\.gradle\caches\transforms-2\files-2.1\6457fc642c0beb4d850e1b4e822278bc\AndroidManifest.xml:13:18-95
