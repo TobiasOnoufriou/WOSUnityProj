@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37195233, g: 0.31579345, b: 0.45173967, a: 1}
+  m_IndirectSpecularColor: {r: 0.2578883, g: 0.218618, b: 0.28066933, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -187,6 +187,18 @@ Transform:
   m_Father: {fileID: 1357477416}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &88413632 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7897558900783614181, guid: c397341b0169a4b46ac23e689908abd7,
+    type: 3}
+  m_PrefabInstance: {fileID: 7897558900829560101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167bec5e4b7b7c44896f29f25d6e179c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &137357532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.040000003, y: 0.030184211}
   m_AnchorMax: {x: 0.17875001, y: 0.10681579}
-  m_AnchoredPosition: {x: -0.29992676, y: 6.5}
+  m_AnchoredPosition: {x: -0.2998047, y: 6.5}
   m_SizeDelta: {x: -105.140015, y: -123.03003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1186810861 stripped
@@ -3614,6 +3626,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 638994677099610657, guid: a744b2dc94fbb8d46be2bd7e2d497a2b,
         type: 3}
+    - target: {fileID: 114579023361775314, guid: 79ccfda27ac6dcb429afc22797a1cdfb,
+        type: 3}
+      propertyPath: net
+      value: 
+      objectReference: {fileID: 88413632}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79ccfda27ac6dcb429afc22797a1cdfb, type: 3}
 --- !u!1 &2006803183
@@ -4493,3 +4510,77 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &7897558900829560101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7897558900783614106, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_Name
+      value: Network
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.169025
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.097113
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5648742
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614180, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897558900783614181, guid: c397341b0169a4b46ac23e689908abd7,
+        type: 3}
+      propertyPath: url
+      value: https://wosgame-thing.herokuapp.com
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c397341b0169a4b46ac23e689908abd7, type: 3}

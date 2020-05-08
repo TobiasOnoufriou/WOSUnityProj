@@ -39,7 +39,6 @@ public class LongClickButton : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         {
            
             pointerDownTimer += Time.deltaTime;
-            Debug.Log(pointerDownTimer);
             if (pointerDownTimer > requiredHoldTime)
             {
                 if (onLongClick != null)
