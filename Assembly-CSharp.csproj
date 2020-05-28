@@ -512,6 +512,7 @@
     <Compile Include="Assets\Dungeon\DungeonScripts\DodgeScript.cs" />
     <Compile Include="Assets\Dungeon\DungeonScripts\DungeonInteraction.cs" />
     <Compile Include="Assets\Dungeon\DungeonScripts\DungeonManager.cs" />
+    <Compile Include="Assets\Dungeon\DungeonScripts\SwipeScript.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\ComputerVisionController.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\EdgeDetector.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReader.cs" />
@@ -595,6 +596,7 @@
     <Compile Include="Assets\Map Scene\Scripts\bagScript.cs" />
     <Compile Include="Assets\Map Scene\Scripts\dungeonClick.cs" />
     <Compile Include="Assets\Map Scene\Scripts\DungeonInformation.cs" />
+    <Compile Include="Assets\Map Scene\Scripts\InitMap.cs" />
     <Compile Include="Assets\Map Scene\Scripts\LongClickButton.cs" />
     <Compile Include="Assets\Map Scene\Scripts\Networking.cs" />
     <Compile Include="Assets\Map Scene\Scripts\RotateCamera.cs" />

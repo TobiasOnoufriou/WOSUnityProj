@@ -1,9 +1,9 @@
 sceneSetups:
-- path: Assets/Dungeon/Scene/DungeonScene.unity
+- path: Assets/Map Scene/Scene/mapScene.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Map Scene/Scene/mapScene.unity
+- path: Assets/Dungeon/Scene/DungeonScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

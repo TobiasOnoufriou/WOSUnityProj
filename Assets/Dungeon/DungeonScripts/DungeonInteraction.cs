@@ -100,7 +100,8 @@ public class DungeonInteraction : MonoBehaviour {
     }
     public void playerLoseHealth()
     {
-        DungeonManager.Instance.pHealth = DungeonManager.Instance.pHealth - 5;
+        Debug.Log(DungeonManager.Instance.pHealth);
+        DungeonManager.Instance.pHealth = DungeonManager.Instance.pHealth - 20;
         pHealthBar.fillAmount = DungeonManager.Instance.pHealth / pStartHealth;
         if(DungeonManager.Instance.pHealth <= 0)
         {

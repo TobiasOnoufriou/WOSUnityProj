@@ -866,6 +866,7 @@ GameObject:
   - component: {fileID: 197958721}
   - component: {fileID: 197958722}
   - component: {fileID: 197958716}
+  - component: {fileID: 197958719}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -910,6 +911,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &197958719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197958715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae48af261ee91ec41988dbcd61c2e432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cut: {fileID: 3294339714822222692, guid: 89aa8576103e1e448b5ba2861dbdb460, type: 3}
+  cutDestroyTime: 1.5
+  cam: {fileID: 1941710912}
 --- !u!95 &197958720
 Animator:
   serializedVersion: 3
@@ -3198,7 +3214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e76b4a4b6f4c78e48b6fbf107f0201e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30295c04a9d28de46a6e76d5a5f43eef, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3966,7 +3982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.0027700833, y: 1}
-  m_AnchoredPosition: {x: 359.99072, y: 0}
+  m_AnchoredPosition: {x: 359.9923, y: 0}
   m_SizeDelta: {x: 720, y: -2.3099995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1462090561
@@ -3982,8 +3998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ecfa90b4a117a42b276bf49b5aa894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pExperience: 0
-  xpBar: {fileID: 0}
 --- !u!114 &1462090562
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -90,7 +90,6 @@ public class BossScript : MonoBehaviour {
     {
         if(DungeonManager.Instance.bAttack[DungeonManager.Instance.pLane] == true)
         {
-            
             StartCoroutine(playerHit());
         }
         yield return new WaitForSeconds(0.5f);
@@ -102,7 +101,6 @@ public class BossScript : MonoBehaviour {
         pMesh.GetComponent<Renderer>().material.color = Color.red;
         yield return new WaitForSeconds(0.2f);
         pMesh.GetComponent<Renderer>().material.color = originalMat;
-
     }
 
 	// Update is called once per frame
