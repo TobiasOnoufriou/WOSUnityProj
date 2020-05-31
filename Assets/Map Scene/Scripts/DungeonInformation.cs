@@ -25,6 +25,9 @@ public class DungeonInformation: MonoBehaviour
 
     public Networking net;
 
+
+    public GameObject dungeonSmash;
+
     [SerializeField] private int m_dungeonRarity;
     [SerializeField] private string m_dungeonID;
     public int dungeonRarity
@@ -73,6 +76,13 @@ public class DungeonInformation: MonoBehaviour
                 break;
         }
     }   
+    public async void openDungeon()
+    {
+        string json = "{\"user\":\"bigboi1\", \"dungeonID\":\"" + dungeonID + "\"}";
+        var response = "";
+        MapObjectManager.Instance.openDungeonSmash(m_dungeonRarity,m_dungeonID);
+        
+    }
     public async void scrapDungeon()
     {
         string json = "{\"user\":\"bigboi1\", \"dungeonID\":\"" + dungeonID + "\"}";
@@ -96,7 +106,7 @@ public class DungeonInformation: MonoBehaviour
         {
             var valueSet = JsonConvert.DeserializeObject(response);
             Rarity item = JsonConvert.DeserializeObject<Rarity>(response);
-
+            Debug.Log(item.dungeonRarity);
             this.dungeonRarity = item.dungeonRarity;
             setIconandButtonPrices();
         }

@@ -25,7 +25,7 @@ public class DungeonInteraction : MonoBehaviour {
 
     //Attack Bars 
     public Animator firstDagger, secondDagger, thirdDagger;
-
+    
     public bool slidePart = false;
     // Use this for initialization
     void Start () {

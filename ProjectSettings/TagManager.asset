@@ -8,6 +8,7 @@ TagManager:
   - Dungeon
   - rFlag
   - RotateZone
+  - OpenDungeon
   layers:
   - Default
   - TransparentFX

@@ -598,7 +598,9 @@
     <Compile Include="Assets\Map Scene\Scripts\DungeonInformation.cs" />
     <Compile Include="Assets\Map Scene\Scripts\InitMap.cs" />
     <Compile Include="Assets\Map Scene\Scripts\LongClickButton.cs" />
+    <Compile Include="Assets\Map Scene\Scripts\MapObjectManager.cs" />
     <Compile Include="Assets\Map Scene\Scripts\Networking.cs" />
+    <Compile Include="Assets\Map Scene\Scripts\OpenDungeon.cs" />
     <Compile Include="Assets\Map Scene\Scripts\RotateCamera.cs" />
     <Compile Include="Assets\Old Stuff\Models\3DStuff\click.cs" />
     <Compile Include="Assets\Old Stuff\ProceduralTest\Assets\Scripts\ModularWorldGenerator.cs" />
