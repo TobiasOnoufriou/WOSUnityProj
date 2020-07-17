@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpenDungeon : MonoBehaviour
 {
     [SerializeField] private Light dungeonLight;
     private int clickAmount = 0;
     [SerializeField] public string m_dungeonID;
+    public GameObject setupDungeon;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +54,12 @@ public class OpenDungeon : MonoBehaviour
                     }
                     else
                     {
-
+                        //Start loading the dungeon and play the animation
+                        //Will need some sort of handshake that the user online.
+                        setupDungeon.GetComponent<SetupInformation>().Dungeon_ID = m_dungeonID;
+                        GameObject dungeonSetup = Instantiate(setupDungeon);
+                        DontDestroyOnLoad(dungeonSetup);
+                        SceneManager.LoadScene("DungeonScene");
                     }
                 }
             }

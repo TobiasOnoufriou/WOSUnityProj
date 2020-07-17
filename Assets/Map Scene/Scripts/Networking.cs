@@ -12,6 +12,10 @@ public class Networking : MonoBehaviour
     public string url;
     public Coroutine coroutine { get; private set; }
     // Start is called before the first frame update
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     void Start()
     {
         /*coroutine = StartCoroutine(GET("http://localhost:65080/dungeon/joinDungeon",returnValue=>{
@@ -26,6 +30,7 @@ public class Networking : MonoBehaviour
         yield return www.SendWebRequest();
         if (www.isNetworkError)
         {
+            //Need to include some UI which tells the user they have lost connection.
             Debug.Log("There was an error processing command" + www.error);
         }
         else

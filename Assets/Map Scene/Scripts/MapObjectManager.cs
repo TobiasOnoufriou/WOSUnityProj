@@ -14,7 +14,7 @@ public class MapObjectManager : MonoBehaviour
     public GameObject dungeonHotbar;
     public GameObject closeDungeonButton;
 
-
+    public Networking net;  
     // Start is called before the first frame update
     private void Awake()
     {

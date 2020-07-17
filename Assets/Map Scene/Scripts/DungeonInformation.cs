@@ -78,8 +78,6 @@ public class DungeonInformation: MonoBehaviour
     }   
     public async void openDungeon()
     {
-        string json = "{\"user\":\"bigboi1\", \"dungeonID\":\"" + dungeonID + "\"}";
-        var response = "";
         MapObjectManager.Instance.openDungeonSmash(m_dungeonRarity,m_dungeonID);
         
     }
