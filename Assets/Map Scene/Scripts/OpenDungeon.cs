@@ -14,6 +14,7 @@ public class OpenDungeon : MonoBehaviour
     {
         
     }
+
     public void changeColourLight(int dungeonRarity)
     {
         switch (dungeonRarity)
@@ -47,7 +48,6 @@ public class OpenDungeon : MonoBehaviour
                 if (raycastHit.collider.CompareTag("OpenDungeon"))
                 {
                     clickAmount++;
-                    Debug.Log("Soccer Ball clicked " + clickAmount);
                     if (clickAmount < 3)
                     {
                         dungeonLight.intensity *= 2.5f + clickAmount;
